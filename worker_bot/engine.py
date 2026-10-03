@@ -440,7 +440,7 @@ class WorkerEngine:
                         f"<blockquote>ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention}!\n\n"
                         f"ɪ ᴄᴀɴ sᴛᴏʀᴇ ꜰɪʟᴇs ᴀɴᴅ sʜᴀʀᴇ ᴛʜᴇᴍ\n"
                         f"ᴠɪᴀ sᴘᴇᴄɪᴀʟ ʟɪɴᴋs.\n\n"
-                        f"ᴘᴏᴡᴇʀᴇᴅ ʙʏ @cantarellabots</blockquote>"
+                        f"ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Toonworld4all_Tamil</blockquote>"
                     )
                 else:
                     try:

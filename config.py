@@ -54,13 +54,13 @@ BACKEND_API_SECRET = os.environ.get("BACKEND_API_SECRET", "")
 # =============================================================================
 
 # Number of Pyrogram workers for the main bot
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "8"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "5"))
 
 # Web server port (for health checks / keep-alive)
 PORT = int(os.environ.get("PORT", "8080"))
 
 # Maximum number of bots a single user can create
-MAX_BOTS_PER_USER = int(os.environ.get("MAX_BOTS_PER_USER", "1"))
+MAX_BOTS_PER_USER = int(os.environ.get("MAX_BOTS_PER_USER", "3"))
 
 # Default auto-delete time for files (in seconds, 0 = disabled)
 DEFAULT_AUTO_DELETE = int(os.environ.get("DEFAULT_AUTO_DELETE", "0"))

@@ -419,9 +419,9 @@ class WorkerEngine:
                 del_timer = await worker_db.get_del_timer()
                 if del_timer > 0 and sent_msgs:
                     notification = await message.reply(
-                        f"<b>⚠️ Important:
-
-All Messages will be deleted {get_exp_time(del_timer)}. Please save or forward these messages to your personal saved messages to avoid losing them!</b>" )
+                     f"<b>⏱ These files will be auto-deleted in {get_exp_time(del_timer)}.\n"
+                        f"Save or forward them before deletion!</b>"
+                    )
 
                     reload_url = f"https://t.me/{(await client.get_me()).username}?start={message.command[1]}" if len(message.command) > 1 else None
 
